@@ -1,0 +1,20 @@
+# 1. 核心大文件（绝对不能传）
+UserBehavior.csv
+
+# 2. Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. 虚拟环境文件夹（如果你在本地建了 .venv 或 venv 虚拟环境，千万别传！）
+.venv/
+venv/
+ENV/
+
+# 4. Jupyter Notebook 缓存
+.ipynb_checkpoints/
+
+# 5. 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+Desktop.ini
